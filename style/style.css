@@ -1,0 +1,155 @@
+body{
+  font-family: 'Times New Roman',Times,serif;
+  margin: 0 auto;
+  background-size: cover;
+  max-width: 1000px;
+  background-image: url('../img/i1.jpeg');
+  background-repeat: no-repeat;
+}
+
+.topnav {
+  width: 990px;
+  height: 80px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.topnav ul{
+  list-style: none;
+  background-color: #444;
+  padding: 0;
+  margin-left: 0;
+  display: inline-flex;
+  text-align: center;
+}
+.topnav li{
+  font-size: 1.2em;
+  line-height: 40px;
+}
+
+.topnav a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin: 0 40px 0 40px;
+  text-align: center;
+}
+.topnav a:hover{
+  background-color: #005f5f;
+  cursor: pointer;
+}
+.firsthead{
+  width: 990px;
+  height: 200px;
+}
+
+.firsthead h1{
+  font-size: 40px;
+  font-family: pacifico;
+  color: #005f5f;
+  text-align: center;
+}
+
+  .firsthead h3{
+    color: #005f5f;
+    text-align: center;
+    font-style: italic;
+  }
+.skill {
+    margin: 0 auto;
+    width: 730px;
+    height: 200px;
+}
+.skill h2 {
+  font-family: pacifico;
+  color: #005f5f;
+}
+.skill h3{
+  font-family: pacifico;
+  color: #005f5f;
+  font-style: italic;
+}
+
+
+.project{
+  margin: 0 auto;
+  width: 730px;
+  height: 200px;
+}
+
+.project h2{
+  font-family: pacifico;
+  color: #005f5f;
+  text-transform: uppercase;
+}
+
+
+.about{
+  margin: 0 auto;
+  width: 730px;
+  height: 200px;
+}
+.about h2{
+  font-family: pacifico;
+  color: #005f5f;
+}
+
+.contact {
+  margin: 0 auto;
+  width: 730px;
+  height: 200px;
+
+}
+.contact h2{
+  font-family: pacifico;
+  color: #005f5f;
+  text-transform: uppercase;
+}
+.continfo p{
+  font-style: italic;
+  font-weight: bold;
+  line-height: 0.8em;
+}
+.continfo a{
+  text-decoration: none;
+  color: #005f5f;
+  font-weight: bold;
+}
+.continfo a:hover{
+  cursor: pointer;
+  color: pink;
+}
+
+.conlogo{
+  margin: 0 auto;
+  width: 450px;
+  height: 300px;
+  float: left;
+}
+
+.conlogo .twt a{
+  float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (min-width: 600px){
+  .nav li {
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+}*/
