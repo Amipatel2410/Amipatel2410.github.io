@@ -9,11 +9,9 @@ body{
 
 .topnav {
   width: 990px;
-  height: 80px;
-  padding: 20px 0;
+  height: 150px;
   margin: 0 auto;
   text-align: center;
-
 }
 .topnav ul{
   list-style: none;
@@ -22,6 +20,7 @@ body{
   margin-left: 0;
   display: inline-flex;
   text-align: center;
+  height: 60px;
 }
 .topnav li{
   font-size: 1.2em;
@@ -34,6 +33,7 @@ body{
   display: block;
   margin: 0 40px 0 40px;
   text-align: center;
+  padding: 14px;
 }
 .topnav a:hover{
   background-color: #005f5f;
@@ -42,16 +42,16 @@ body{
 .firsthead{
   width: 990px;
   height: 200px;
+
 }
 
-.firsthead h1{
+.firsthead h1 {
   font-size: 40px;
   font-family: pacifico;
   color: #005f5f;
   text-align: center;
 }
-
-  .firsthead h3{
+.firsthead h3 {
     color: #005f5f;
     text-align: center;
     font-style: italic;
@@ -60,6 +60,7 @@ body{
     margin: 0 auto;
     width: 730px;
     height: 200px;
+
 }
 .skill h2 {
   font-family: pacifico;
@@ -76,6 +77,7 @@ body{
   margin: 0 auto;
   width: 730px;
   height: 200px;
+
 }
 
 .project h2{
@@ -124,14 +126,46 @@ body{
 .conlogo{
   margin: 0 auto;
   width: 450px;
-  height: 300px;
-  float: left;
+  height: 80px;
+
 }
 
 .conlogo .twt a{
-  float: right;
+  float: left;
 
 }
+
+
+.abthead{
+  text-align: center;
+  color:#005f5f ;
+}
+
+.profimg{
+  text-align: center;
+}
+
+.profimg img{
+  border-radius: 50%;
+  border: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
