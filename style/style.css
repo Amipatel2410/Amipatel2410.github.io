@@ -8,6 +8,7 @@ body{
 .topnav{
   background-color: #313233;
   height: 80px;
+
 }
 
 .topnav h1{
@@ -56,7 +57,7 @@ body{
 
 /* about me part start */
 
-.about_me {
+#about_me {
   height: 600px;
   margin: 14px;
   padding: 14px;
@@ -155,9 +156,234 @@ body{
 }
 
 
+/* project part here */
+
+#project_section{
+  height: 900px;
+  margin: 14px;
+  padding: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#project_section h1{
+  color: #1aafa3;
+  text-shadow: 1px 1px 1px #1aafa3;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+#project_section img{
+  position: relative;
+  left: 400px;
+}
+
+.project1_detail{
+
+    padding: 14px;
+    margin: 14px;
+    width: 400px;
+    height: 510px;
+    border: 2px solid gray ;
+}
+
+.project1_detail h2{
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+.project1_detail span{
+  color: gray;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.p1_detail label{
+  font-size: 18px;
+  font-weight: bold;
+  color: #1aafa3;
+  font-family: 'Lobster', cursive;
+}
+
+.p1_detail p{
+  text-align: justify;
+  font-family: 'Cabin', sans-serif;
+  color: rgba(0,0,0,0.7);
+}
+
+.p1_tech h3{
+ color: #1aafa3;
+  font-family: 'Lobster', cursive;
+}
+
+.p1_tech p{
+  font-weight: bold;
+}
+
+.p1_link1 a{
+  text-decoration: none;
+  color:  #1aafa3;
+  font-family: 'Pacifico', cursive;
+}
+
+.p1_link1 a:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.p1_link2 a{
+  text-decoration: none;
+  color:  #1aafa3;
+  font-family: 'Pacifico', cursive;
+}
+
+.p1_link2 a:hover{
+  color: black;
+  cursor: pointer;
+}
+.project2_detail{
+
+    padding: 14px;
+    margin: 14px;
+    width: 400px;
+    height: 510px;
+    border: 2px solid gray ;
+    position: relative;
+    left: 460px;
+    bottom: 555px;
+}
+
+.project2_detail h2{
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+.project2_detail span{
+  color: gray;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.p2_detail label{
+  font-size: 18px;
+  font-weight: bold;
+  color: #1aafa3;
+  font-family: 'Lobster', cursive;
+}
+
+.p2_detail p{
+  text-align: justify;
+  font-family: 'Cabin', sans-serif;
+  color: rgba(0,0,0,0.7);
+}
+
+.p2_tech h3{
+ color: #1aafa3;
+  font-family: 'Lobster', cursive;
+}
+
+.p2_tech p{
+  font-weight: bold;
+}
+
+.p2_link1 a{
+  text-decoration: none;
+  color:  #1aafa3;
+  font-family: 'Pacifico', cursive;
+}
+
+.p2_link1 a:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.p2_link2 a{
+  text-decoration: none;
+  color:  #1aafa3;
+  font-family: 'Pacifico', cursive;
+}
+
+.p2_link2 a:hover{
+  color: black;
+  cursor: pointer;
+}
 
 
+/* contact information goes here */
+#contact_detail{
+  height: 700px;
+  margin: 14px;
+  padding: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+#contact_detail h1{
+  color: #1aafa3;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 3px #1aafa3;
+}
+
+.contact_info p{
+  padding: 14px;
+  color: gray;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.address {
+
+  height: 330px;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 14px;
+  padding: 14px;
+
+  }
+  .address h2{
+  font-family: 'Lobster', cursive;
+  color: rgba(0,0,0, 0.7);
+}
+
+.address p{
+  font-family: 'Cabin', sans-serif;
+  padding: 5px;
+  line-height: 1.5em;
+}
+
+.online{
+  height: 330px;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 14px;
+  padding: 14px;
+  position: relative;
+  left: 450px;
+  bottom: 370px;
+
+}
+
+.online h2{
+  font-family: 'Lobster', cursive;
+  color: rgba(0,0,0, 0.7);
+}
+
+.online span{
+  font-family: 'Pacifico', cursive;
+  padding: 10px;
+  position: relative;
+  bottom: 20px;
+}
+
+.online a{
+  text-decoration: none;
+  color: black;
+}
+
+.online a:hover
+{
+  color: #1aafa3;
+  cursor: pointer;
+}
 
 
 
