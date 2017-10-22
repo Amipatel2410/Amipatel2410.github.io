@@ -1,65 +1,70 @@
 body{
   font-family: 'Times New Roman',Times,serif;
   height: auto;
-  margin: 0 auto;
-  width: 1000px;
 }
 
-.topnav{
+header{
+  overflow: hidden;
   background-color: #313233;
   height: 80px;
-
+  position: fixed;
+  top:0;
+  width: 100%;
 }
 
-.topnav h1{
+.firsthead h1{
   color: white;
-  padding: 10px;
   text-shadow: 1px 1px 3px #1aafa3;
+  position: relative;
+  bottom: 20px;
 }
-.topnav p{
+.firsthead p{
   color: white;
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
   position: relative;
   bottom: 40px;
-  padding: 10px;
-   text-shadow: 1px 1px 3px #1aafa3;
+  text-shadow: 1px 1px 3px #1aafa3;
 }
 
-.toplinks {
+ .toplinks {
   position: absolute;
-  left: 830px;
-  top: 30px;
+  left: 1100px;
+  top: 0px;
 }
 
-.toplinks ul{
+ .toplinks ul{
   list-style: none;
   display: inline-flex;
   text-align: center;
 }
 
-.toplinks li {
+ .toplinks li {
   font-size: 20px;
   padding: 14px;
 }
-
-.toplinks a{
+ .toplinks a{
   text-decoration: none;
   color: white;
   font-family: 'Lobster', cursive;
 }
 
-.toplinks a:hover{
+ .toplinks a:hover{
   color: #1aafa3;
   cursor: pointer;
 }
+
 
 /* about me part start */
 
 #about_me {
   height: 600px;
-  margin: 14px;
+  width: 900px;
+  margin-top: 60px;
+  position: relative;
+  top: 70px;
+  left: 240px;
   padding: 14px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -159,7 +164,12 @@ body{
 /* project part here */
 
 #project_section{
+  width: 900px;
   height: 900px;
+  margin-top: 30px;
+  position: relative;
+  left: 227px;
+  top: 90px;
   margin: 14px;
   padding: 14px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -248,7 +258,7 @@ body{
     height: 510px;
     border: 2px solid gray ;
     position: relative;
-    left: 460px;
+    left: 450px;
     bottom: 555px;
 }
 
@@ -310,10 +320,16 @@ body{
 
 /* contact information goes here */
 #contact_detail{
-  height: 700px;
+  height: 650px;
+  width: 900px;
   margin: 14px;
   padding: 14px;
+  position: relative;
+  top: 90px;
+  left:227px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #contact_detail h1{
@@ -358,7 +374,7 @@ body{
   padding: 14px;
   position: relative;
   left: 450px;
-  bottom: 370px;
+  bottom: 373px;
 
 }
 
@@ -385,6 +401,25 @@ body{
   cursor: pointer;
 }
 
+/* footer goes here */
+
+footer
+{
+  background-color: #313233;
+  height: 60px;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+}
+
+footer p{
+  color: white;
+  font-size: 15px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
 
 
 

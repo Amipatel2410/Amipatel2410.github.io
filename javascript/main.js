@@ -1,25 +1,30 @@
-var people=[];
-var currentName;
-var favoriteColor;
+/*var sticky = {
+  sticky_after: 200,
+  init: function() {
+    this.header = document.getElementsByTagName("header")[0];
+    this.clone = this.header.cloneNode(true);
+    this.clone.classList.add("clone");
+    this.header.insertBefore(this.clone);
+    this.scroll();
+    this.events();
+  },
 
-function addPerson()
-{
-  currentName = prompt("Enter name");
-  favoriteColor = prompt("enter color");
-  console.log(people);
-  people.push({name: currentName, color:favoriteColor});
-}
+  scroll: function() {
+    if(window.scrollY > this.sticky_after) {
+      document.body.classList.add("down");
+    }
+    else {
+      document.body.classList.remove("down");
+    }
+  },
 
-while(currentName !== 'STOP')
-{
-  if(currentName=== 'STOP')
-  {
-    break;
+  events: function() {
+    window.addEventListener("scroll", this.scroll.bind(this));
   }
-  else{
-    addPerson();
-  }
-}
+};
 
+document.addEventListener("DOMContentLoaded", sticky.init.bind(sticky)); */
 
-// var o = {pets: ['abc' , 'def']}
+$(window).scroll(function () {
+  $('.header').css('position','fixed');
+});
