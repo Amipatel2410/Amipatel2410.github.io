@@ -10,6 +10,11 @@ header{
   position: fixed;
   top:0;
   width: 100%;
+  z-index: 3;
+}
+
+.main_page{
+  margin-top: 30px;
 }
 
 .firsthead h1{
@@ -17,6 +22,8 @@ header{
   text-shadow: 1px 1px 3px #1aafa3;
   position: relative;
   bottom: 20px;
+  padding: 5px;
+  margin-left: 2px;
 }
 .firsthead p{
   color: white;
@@ -26,6 +33,7 @@ header{
   position: relative;
   bottom: 40px;
   text-shadow: 1px 1px 3px #1aafa3;
+  margin-left: 2px;
 }
 
  .toplinks {
@@ -55,6 +63,10 @@ header{
   cursor: pointer;
 }
 
+
+.main{
+  min-height: auto;
+}
 
 /* about me part start */
 
