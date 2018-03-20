@@ -1,4 +1,105 @@
-body{
+
+
+
+.container {
+  margin-top: 56px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section1, .section2, .section3{
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  margin-top: 24px;
+}
+.hello, .para{
+  font-family: 'Pacifico', cursive;
+  color: rgba(0,0,0,0.6 );
+}
+#aboutme img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 10px;
+}
+.resume{
+  height: 110px;
+  width: 110px;
+  background-color: #a47bad;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+.resume a{
+  position: absolute;
+  top:150px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+.resume  a:hover{
+  color: white;
+}
+.aboutpara{
+  font-size: 14px;
+}
+.myptitle{
+  font-family: 'Pacifico', cursive;
+  color: rgba(0,0,0,0.6 );
+}
+#myprojects img{
+  margin-top: 5px;
+}
+.project, .github{
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+.m1{
+  text-decoration: none;
+  color: rgba(0,0,0,0.6 );
+  font-weight: bold;
+}
+.m1 a:hover{
+  color: rgba(0,0,0,0.6 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
   font-family: 'Times New Roman',Times,serif;
   height: auto;
 }
@@ -69,7 +170,7 @@ header{
 }
 
 /* about me part start */
-
+/*
 #about_me {
   height: 600px;
   width: 900px;
@@ -174,7 +275,7 @@ header{
 
 
 /* project part here */
-
+/*
 #project_section{
   width: 900px;
   height: 900px;
@@ -331,6 +432,7 @@ header{
 
 
 /* contact information goes here */
+/*
 #contact_detail{
   height: 650px;
   width: 900px;
@@ -414,7 +516,7 @@ header{
 }
 
 /* footer goes here */
-
+/*
 footer
 {
   background-color: #313233;
@@ -432,7 +534,7 @@ footer p{
   position: relative;
   top: 0px;
 }
-
+ */
 
 
 
